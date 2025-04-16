@@ -76,7 +76,7 @@ namespace ProjetoFinalCarrinho
                 Gl.glFlush();
             }
 
-            for (float i = 0.2f; i <= 0.80; i += 0.05f)
+            for (float i = 0.2f; i <= 0.75; i += 0.05f)
             {
                 Gl.glBegin(Gl.GL_QUADS);
                     Gl.glVertex2f(0.87f, i);
@@ -88,13 +88,13 @@ namespace ProjetoFinalCarrinho
                 Gl.glFlush();
             }
 
-            for (float i = 0.2f; i <= 0.80; i += 0.05f)
+            for (float i = 0.2f; i <= 0.75; i += 0.05f)
             {
                 Gl.glBegin(Gl.GL_QUADS);
-                Gl.glVertex2f(0.12f, i);
-                Gl.glVertex2f(0.12f, i + 0.05f);
-                Gl.glVertex2f(0.125f, i + 0.05f);
-                Gl.glVertex2f(0.125f, i);
+                    Gl.glVertex2f(0.12f, i);
+                    Gl.glVertex2f(0.12f, i + 0.05f);
+                    Gl.glVertex2f(0.125f, i + 0.05f);
+                    Gl.glVertex2f(0.125f, i);
                 i += 0.05f;
                 Gl.glEnd();
                 Gl.glFlush();
